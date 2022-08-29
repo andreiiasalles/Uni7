@@ -36,6 +36,8 @@ class Main {
     carro1.estepe.aro.material = "Liga Leve";
     carro1.estepe.aro.modelo = "SeiLa";
     
-  
+  carro1.TrocaDePneu(carro1.rodas[0], carro1.estepe);
   }
+
+
 }

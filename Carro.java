@@ -12,5 +12,10 @@ class Carro {
   Roda estepe;
   Motor motor;  
   TanqueCombustivel tanque;
-  
+
+  public void TrocaDePneu (Roda newpneu, Roda oldpneu){
+
+    oldpneu = newpneu;
+
+  }
 }
